@@ -23,7 +23,7 @@ Key Challenges
 Results
 Handles 12/13/14-bit S-boxes. Produces measurably better cryptographic properties than random permutations; parallel search consistently outperforms single-search approaches.
 
-==============================================================================================
+===========================================================================
 
 Requirements: numpy
 -
