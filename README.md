@@ -28,3 +28,16 @@ Handles 12/13/14-bit S-boxes. Produces measurably better cryptographic propertie
 Requirements: numpy
 -
 Optional: cupy (for GPU acceleration)
+
+===========================================================================
+## Usage
+```bash
+pip install numpy
+python 12-13-14-bit_s-box_improver_V3.py
+```
+
+Then follow the interactive prompts to:
+1. Load or generate an S-box
+2. Select optimization metric (DDT, LAT, NL, etc.)
+3. Choose number of iterations
+4. Results saved to JSON
